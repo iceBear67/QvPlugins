@@ -34,6 +34,6 @@ macro(plugin_collection name)
 endmacro()
 
 #plugin_collection(Command)
-plugin_collection(Trojan-Go)
-#plugin_collection(NaiveProxy)
+#plugin_collection(Trojan-Go)
+plugin_collection(NaiveProxy)
 plugin_collection(LatencyTest)
