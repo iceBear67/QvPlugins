@@ -53,7 +53,7 @@ class NaiveKernelInterface : public Qv2rayPlugin::Kernel::IKernelHandler
         naive.Create = []() { return std::make_unique<NaiveProxyKernel>(); };
         naive.Id = KernelId{ "naiveproxy-kernel" };
         naive.Name = "NaiveProxy";
-        naive.SupportedProtocols = { "naiveproxy" };
+        naive.SupportedProtocols = { "naive" };
         return QList<Qv2rayPlugin::Kernel::KernelFactory>{} << naive;
     }
 };
